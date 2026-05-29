@@ -32,8 +32,8 @@ public class Bag {
             System.out.println("Put");
     }
   
-    public void carry() {
-        System.out.println("Carry");
+    public void hold() {
+        System.out.println("Hold");
     }
 
     public void showItems() {
@@ -43,7 +43,7 @@ public class Bag {
     public static void main(String[] args) {
         Bag bag = new Bag(0, 1);
 
-        bag.carry();
+        bag.hold();
         bag.open();
         Item sigmaboy = new Item("");
         bag.store();
