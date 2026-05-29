@@ -1,9 +1,9 @@
 public class Stuff extends Item {
-    private int damage;
+    private int pain;
 
-    public stuff(String name, String description, double weight, int damage) {
+    public stuff(String name, String description, double weight, int pain) {
         super(name, description, weight, true);
-        this.damage = damage;
+        this.pain = pain;
     }
 public class Eating extends Item {
     private int nutrients;
@@ -13,12 +13,12 @@ public class Eating extends Item {
         this.nutrients = nutrients;
       
     public void use() {
-        System.out.println(name + damage);
+        System.out.println(name + pain);
     }
       
-  public class Damaging extends Item {
+  public class Hurt extends Item {
     private int amount;
-    public Damaging(String name, String description, double weight, int amount) {
+    public Hurt(String name, String description, double weight, int amount) {
         super(name, description, weight, true);
         this.amount = amount;
       
