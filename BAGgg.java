@@ -27,9 +27,9 @@ public class Bag {
         System.out.println("Opened");
   }
 
-      public void store(Item item) {
+      public void keep(Item item) {
             items.add(item);
-            System.out.println("Put");
+            System.out.println("Keep");
     }
   
     public void hold() {
@@ -46,6 +46,6 @@ public class Bag {
         bag.hold();
         bag.open();
         Item sigmaboy = new Item("");
-        bag.store();
+        bag.keep();
     }
 }
