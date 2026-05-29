@@ -12,14 +12,14 @@ class Item {
         this.name = name;
     }
 
-  public Bag(int max, double weight) {
-    this.max = max;
+  public Bag(int maximum, double weight) {
+    this.maximum = maximum;
     this.weight = weight;
     this.items = new ArrayList<Item>();
   }
 
 public class Bag {
-    public int max; 
+    public int maximum; 
     public ArrayList<Item> items; 
     public double weight; 
   
@@ -49,4 +49,3 @@ public class Bag {
         bag.store();
     }
 }
-this.name
