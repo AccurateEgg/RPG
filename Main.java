@@ -4,7 +4,6 @@ public class RPG {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Bag bag = new Bag();
-
         try (true) {
             System.out.println();
             String input = scanner.nextLine();
