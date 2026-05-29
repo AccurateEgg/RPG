@@ -14,7 +14,7 @@ public class RPG {
                 "close":
                     bag.close();
                     break;
-                "exit":
+                "leave":
                     System.out.println();
                     return;
                 "open":
