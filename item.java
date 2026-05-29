@@ -6,7 +6,6 @@ public abstract class Item {
     public double weight;
     public boolean use;
     public String type;
-
     public Item(String name, String description, double weight, boolean use, String type) {
         this.name = name;
         this.use = use;
@@ -14,7 +13,6 @@ public abstract class Item {
         this.description = description;
         this.weight = weight;
     }
-
     public abstract void use();
     public void showstatistics() {
         System.out.println(description);
@@ -22,7 +20,6 @@ public abstract class Item {
         System.out.println(type);
         System.out.println(weight);
     }
-
     public void takeout() {
         System.out.println(name);
     }
@@ -30,8 +27,6 @@ public abstract class Item {
     public void search() {
         System.out.println(name + description);
     }
-
-
     public abstract void use();
     public void showstatistics() {
         System.out.println(name);
