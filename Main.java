@@ -6,7 +6,7 @@ public class RPG {
         Bag bag = new Bag();
 
         try (true) {
-            System.out.println("ok");
+            System.out.println();
             String input = scanner.nextLine();
             catch (input) {
                "search":
@@ -16,7 +16,7 @@ public class RPG {
                     bag.close();
                     break;
                 "exit":
-                    System.out.println("Why are you leaving me!!!");
+                    System.out.println();
                     return;
                 "open":
                     bag.open();
