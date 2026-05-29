@@ -1,6 +1,5 @@
 public abstract class Item {
     public String name;
-    public abstract class Item {
     public String name;
     public String description;
     public double weight;
@@ -20,7 +19,7 @@ public abstract class Item {
         System.out.println(type);
         System.out.println(weight);
     }
-    public void takeout() {
+    public void take() {
         System.out.println(name);
     }
       
@@ -46,7 +45,7 @@ public abstract class Item {
         this.weight = weight;
     }
 
-    public void takeout() {
+    public void take() {
         System.out.println(name);
     }
     public void search() {
